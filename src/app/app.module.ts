@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { AllPlayersComponent } from './all-players/all-players.component';
 import { PlayerDetailComponent } from './player-detail/player-detail.component';
+import { RolePipe } from './role.pipe';
 
 
 export const firebaseConfig = {
@@ -27,7 +28,8 @@ export const firebaseConfig = {
     HomeComponent,
     AboutUsComponent,
     AllPlayersComponent,
-    PlayerDetailComponent
+    PlayerDetailComponent,
+    RolePipe
   ],
   imports: [
     BrowserModule,

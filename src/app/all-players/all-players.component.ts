@@ -13,6 +13,11 @@ import { FirebaseListObservable } from 'angularfire2/database';
 export class AllPlayersComponent implements OnInit {
   players: FirebaseListObservable<any[]>;
   currentRoute: string = this.router.url;
+  filterByRoles: string ="All";
+
+  onChange(option){
+    this.filterByRoles = option;
+  }
 
   constructor(private router: Router, private playerService: PlayerService) { }
 
