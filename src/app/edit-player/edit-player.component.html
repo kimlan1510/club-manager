@@ -11,7 +11,7 @@
   <label>Player Role:</label>
   <br>
   <input [(ngModel)]="selectedPlayer.role">
-  <br> -->
+  <br>
 
   <label>Player Origin:</label>
   <br>
@@ -23,7 +23,12 @@
   <input [(ngModel)]="selectedPlayer.winrate">
   <br>
 
+  <label>Player Image URL:</label>
+  <br>
+  <input [(ngModel)]="selectedPlayer.image">
+  <br>
+
   <button (click)="beginUpdatePlayer(selectedPlayer)" (click)="hideEditPlayerForm()">Update</button>
-  <hr>
-  <!-- <button (click)="beginDeletingPlayer(selectedPlayer)">Delete</button> -->
+  <br>
+  <button (click)="beginDeletingPlayer(selectedPlayer)">Delete</button>
 </div>
