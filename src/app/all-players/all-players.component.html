@@ -1,0 +1,23 @@
+<select (change)="onChange($event.target.value)">
+      <option value="All">View All Players</option>
+      <option value="Striker">Striker</option>
+      <option value="Goal Keeper">Goal Keeper</option>
+      <option value="Defender">Defender</option>
+      <option value="Super Fan">Super Fan</option>
+</select>
+
+
+<div class="panel-section">
+    <div *ngFor="let player of players | async | roles: filterByRoles" class="panel panel-default">
+      <div class="panel-body">
+        <div (click)="goToDetailPage(player)">
+          <img src={{player.image}} alt="picture"/>
+          <h3>{{player.name}}</h3>
+          <p>{{player.role}}</p>
+        </div>
+        <!-- <div *ngIf="currentRoute === '/admin'">
+          <app-edit-project [selectedProject]="project"></app-edit-project>
+        </div> -->
+      </div>
+    </div>
+  </div>

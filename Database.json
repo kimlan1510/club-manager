@@ -1,0 +1,31 @@
+{"players": [
+  {
+    "name": "Ezreal",
+    "role": "Striker",
+    "origin": "Piltover",
+    "winrate": 45,
+    "image": "https://elohub.com/images/champions/ezreal/striker_ezreal_skin.jpg"
+  },
+  {
+    "name": "Blizcranck",
+    "role": "Goal Keeper",
+    "origin": "Zaun",
+    "winrate": 52,
+    "image": "https://elohub.com/images/champions/blitzcrank/goalkeeper_blitzcrank_skin_large.jpg"
+  },
+  {
+    "name": "Alistar",
+    "role": "Defender",
+    "origin": "The Great Barrier",
+    "winrate" : 50,
+    "image": "https://lolskinshop.com/wp-content/uploads/2015/04/Sweeper-Alistar-for-league-of-legends-lol-skin-code-price-rp-ingame-picture-splash-art-model1.png"
+  },
+  {
+    "name": "Gragas",
+    "role": "Super Fan",
+    "origin": "Runeterra",
+    "winrate": 51,
+    "image": "http://2.bp.blogspot.com/-0kY7R1usQCw/U4_b41qSKbI/AAAAAAAAQ8I/dCxV8muWzU0/s1600/grag1.jpg"
+  }
+  ]
+}

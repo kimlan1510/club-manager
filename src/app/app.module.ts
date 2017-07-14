@@ -8,6 +8,10 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { AllPlayersComponent } from './all-players/all-players.component';
+import { PlayerDetailComponent } from './player-detail/player-detail.component';
 
 
 export const firebaseConfig = {
@@ -19,7 +23,11 @@ export const firebaseConfig = {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    AboutUsComponent,
+    AllPlayersComponent,
+    PlayerDetailComponent
   ],
   imports: [
     BrowserModule,
