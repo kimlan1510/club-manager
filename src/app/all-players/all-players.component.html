@@ -15,9 +15,9 @@
           <h3>{{player.name}}</h3>
           <p>{{player.role}}</p>
         </div>
-        <!-- <div *ngIf="currentRoute === '/admin'">
-          <app-edit-project [selectedProject]="project"></app-edit-project>
-        </div> -->
+        <div *ngIf="currentRoute === '/manager'">
+          <app-edit-player [selectedPlayer]="player"></app-edit-player>
+        </div>
       </div>
     </div>
   </div>

@@ -13,6 +13,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { AllPlayersComponent } from './all-players/all-players.component';
 import { PlayerDetailComponent } from './player-detail/player-detail.component';
 import { RolePipe } from './role.pipe';
+import { ManagerComponent } from './manager/manager.component';
+import { EditPlayerComponent } from './edit-player/edit-player.component';
 
 
 export const firebaseConfig = {
@@ -29,10 +31,14 @@ export const firebaseConfig = {
     AboutUsComponent,
     AllPlayersComponent,
     PlayerDetailComponent,
-    RolePipe
+    RolePipe,
+    ManagerComponent,
+    EditPlayerComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    HttpModule,
     routing,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule

@@ -5,6 +5,7 @@ import { HomeComponent} from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { AllPlayersComponent } from './all-players/all-players.component';
 import { PlayerDetailComponent } from './player-detail/player-detail.component';
+import { ManagerComponent } from './manager/manager.component';
 
 const appRoutes: Routes = [
   {
@@ -22,7 +23,11 @@ const appRoutes: Routes = [
   {
     path: "allplayers/:id",
     component: PlayerDetailComponent
-  }
+  },
+  {
+    path: 'manager',
+    component: ManagerComponent
+  },
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

@@ -1,0 +1,29 @@
+<button (click)="showEditPlayerForm()" *ngIf="editPlayerButton">Edit this Player</button>
+
+
+<div *ngIf="editPlayerForm">
+  <h4>Edit Player {{selectedPlayer.name}}</h4>
+  <label>Player Name:</label>
+  <br>
+  <input [(ngModel)]="selectedPlayer.name">
+  <br>
+
+  <label>Player Role:</label>
+  <br>
+  <input [(ngModel)]="selectedPlayer.role">
+  <br> -->
+
+  <label>Player Origin:</label>
+  <br>
+  <input [(ngModel)]="selectedPlayer.origin">
+  <br>
+
+  <label>Player Win Rate:</label>
+  <br>
+  <input [(ngModel)]="selectedPlayer.winrate">
+  <br>
+
+  <button (click)="beginUpdatePlayer(selectedPlayer)" (click)="hideEditPlayerForm()">Update</button>
+  <hr>
+  <!-- <button (click)="beginDeletingPlayer(selectedPlayer)">Delete</button> -->
+</div>
