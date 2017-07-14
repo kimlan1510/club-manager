@@ -40,7 +40,7 @@ _This project was generated with [Angular CLI](https://github.com/angular/angula
       messagingSenderId: "xxxx"
     };
 * where "xxx" is the specific Firebase credential you obtained earlier.
-* _On the left-hand side panel, click Database option._
+* _Go back to Firebase website, on the left-hand side panel, click Database option._
 * _Select the 3 vertical dots on the right-hand side and select 'import JSON'._
 * _Navigate to the project folder and select Database.json._
 * _In terminal or Windows PowerShell, navigate to the project folder, ex: cd Desktop/ClubManager_
