@@ -6,6 +6,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { AllPlayersComponent } from './all-players/all-players.component';
 import { PlayerDetailComponent } from './player-detail/player-detail.component';
 import { ManagerComponent } from './manager/manager.component';
+import { NewPlayerComponent } from './new-player/new-player.component';
 
 const appRoutes: Routes = [
   {
@@ -28,6 +29,10 @@ const appRoutes: Routes = [
     path: 'manager',
     component: ManagerComponent
   },
+  {
+    path: 'new-player',
+    component: NewPlayerComponent
+  }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
