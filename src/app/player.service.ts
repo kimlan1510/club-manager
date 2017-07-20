@@ -33,4 +33,8 @@ export class PlayerService {
     playerEntryInFirebase.remove();
   }
 
+  addPlayer(newPlayer: Player) {
+     this.players.push(newPlayer);
+   }
+
 }
