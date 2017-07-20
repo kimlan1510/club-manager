@@ -1,0 +1,29 @@
+<div class="heading-style">
+  <h2>
+    NEW Player
+  </h2>
+</div>
+<div class="form-body">
+  <h3>Add a new player</h3>
+    <label>Player Name:</label>
+    <br>
+    <input #newName>
+    <br>
+    <label>Role:</label>
+    <br>
+    <input #newRole>
+    <br>
+    <label>Origin:</label>
+    <br>
+    <input #newOrigin>
+    <br>
+    <label>Win rate:</label>
+    <br>
+    <input #newWinrate type="number">
+    <br>
+    <label>Player Image:</label>
+    <br>
+    <input #newImage>
+    <br>
+  <button (click)="submitForm(newName.value, newRole.value, newOrigin.value, newWinrate.value, newImage.value)" routerLink="/allplayers">Add</button>
+</div>
