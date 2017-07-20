@@ -15,6 +15,7 @@ import { PlayerDetailComponent } from './player-detail/player-detail.component';
 import { RolePipe } from './role.pipe';
 import { ManagerComponent } from './manager/manager.component';
 import { EditPlayerComponent } from './edit-player/edit-player.component';
+import { NewPlayerComponent } from './new-player/new-player.component';
 
 
 export const firebaseConfig = {
@@ -33,7 +34,8 @@ export const firebaseConfig = {
     PlayerDetailComponent,
     RolePipe,
     ManagerComponent,
-    EditPlayerComponent
+    EditPlayerComponent,
+    NewPlayerComponent
   ],
   imports: [
     BrowserModule,
